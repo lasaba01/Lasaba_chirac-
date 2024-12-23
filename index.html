@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message de Papa</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #d4af37;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #d2691e;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            color: #4caf50;
+            animation: footerDance 5s infinite;
+        }
+
+        @keyframes footerDance {
+            0%, 100% {
+                opacity: 1;
+                transform: translateY(0) rotate(0deg);
+            }
+            25% {
+                transform: translateY(-10px) rotate(10deg);
+            }
+            50% {
+                opacity: 0;
+                transform: translateY(0) rotate(0deg);
+            }
+            75% {
+                transform: translateY(10px) rotate(-10deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Message de Papa</h1>
+        <p>
+            Papa m'a toujours dit que la vie est belle quand on pense à ceux qui ont peur de vous perdre. 
+            Et aimer votre vie, c'est toujours partager le bon et le mauvais moment avec ceux qui t'aiment. 
+            Papa a dit que nous sommes pauvres et nous prions que demain tout soit embelli.
+        </p>
+        <div class="footer">
+            🎄 Chirac Lasaba vous souhaite une  Joyeuse fête de Noël et plein de bonheur à vous et vos proches ! 🎅
+        </div>
+    </div>
+</body>
+</html>
